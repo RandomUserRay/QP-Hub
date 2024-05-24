@@ -294,6 +294,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "AzureModded",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/SH5Pyji6"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "AzureV4 Fixed",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/AzureV4Fixed.lua"))()

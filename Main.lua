@@ -327,6 +327,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "DesyncLITE",
+   Callback = function()
+   loadstring(game:HttpGet("https://floopie.uk/projects/scripts/DaHood/DesyncsLITE.lua"))()
+   end,
+})
+
 local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec")
 
 local Button = Tab:CreateButton({

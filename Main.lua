@@ -103,6 +103,19 @@ local Button = Tab:CreateButton({
 
 local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")
 
+local Tab = Window:CreateTab("TheClassicGames", 4483362458)
+
+local Section = Tab:CreateSection("For Solara, Work With Other Exec Too")
+
+local Button = Tab:CreateButton({
+   Name = "AutoCollect Badge",
+   Callback = function()
+   loadstring(game:HttpGet("https://freenote.biz/raw/h1cfj0lwu0",true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")
+
 local Tab = Window:CreateTab("Arsenal", 4483362458)
 
 local Section = Tab:CreateSection("For Solara, Work With Other Exec Too")

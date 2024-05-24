@@ -10,9 +10,9 @@ local Window = Rayfield:CreateWindow({
       FileName = "QP Script Hub"
    },
    Discord = {
-      Enabled = true,
+      Enabled = false,
       Invite = "scriptsqp",
-      RememberJoins = false 
+      RememberJoins = true 
    },
    KeySystem = false, 
    KeySettings = {
@@ -290,6 +290,13 @@ local Button = Tab:CreateButton({
    Name = "AzureV4 Fixed",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/AzureV4Test.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VortexHUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
    end,
 })
 

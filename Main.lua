@@ -10,8 +10,8 @@ local Window = Rayfield:CreateWindow({
       FileName = "QP Script Hub"
    },
    Discord = {
-      Enabled = false,
-      Invite = "scriptsqp",
+      Enabled = true,
+      Invite = "3cjRjBadq9",
       RememberJoins = true 
    },
    KeySystem = false, 

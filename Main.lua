@@ -491,3 +491,30 @@ local Button = Tab:CreateButton({
 })
 
 local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")
+
+local Tab = Window:CreateTab("PrisonLife", 4483362458)
+
+local Section = Tab:CreateSection("For Solara, Work With Other Exec Too")
+
+local Button = Tab:CreateButton({
+   Name = "FE HUB",
+   Callback = function()
+   loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Admin HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Juanko-Scripts/Roblox-scripts/main/Prision%20Admin%20Hub%20irufwjskwidiuxejw8uddjjwjdnnwjwjdbb"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "PrisonWare",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+   end,
+})
+
+local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")

@@ -431,3 +431,36 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
    end,
 })
+
+local Tab = Window:CreateTab("PetSim99", 4483362458)
+
+local Section = Tab:CreateSection("For Solara, Work With Other Exec Too")
+
+local Button = Tab:CreateButton({
+   Name = "TerraHUB",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/HGIOD/TerraFusion/main/FreeVersion'))()
+   end,
+})
+
+local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")
+
+local Tab = Window:CreateTab("ZombieAttack", 4483362458)
+
+local Section = Tab:CreateSection("For Solara, Work With Other Exec Too")
+
+local Button = Tab:CreateButton({
+   Name = "SkiHUB",
+   Callback = function()
+   loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VoidzHUB",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")

@@ -423,6 +423,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "AeolusV2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SolaraExec/AeolusV2ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
 local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec")
 
 local Button = Tab:CreateButton({

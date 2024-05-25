@@ -101,6 +101,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "FlingAll",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomUserRay/UnknownScript/main/FlingAll.lua"))()
+   end,
+})
+
 local Section = Tab:CreateSection("Not For Solara, But Work With Other Exec - NONE")
 
 local Tab = Window:CreateTab("TheClassicGames", 4483362458)
